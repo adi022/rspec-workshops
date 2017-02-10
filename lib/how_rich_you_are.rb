@@ -1,7 +1,7 @@
 class HowRichYouAre
   def self.check(amount)
     if amount < 0
-      'Poor as shit'
+      'Poor as fuck'
     elsif amount == 0
       'Homeless bitch'
     elsif amount > 100

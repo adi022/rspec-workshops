@@ -2,10 +2,9 @@ require 'how_rich_you_are'
 
 describe HowRichYouAre do
   describe ".check" do
-
     context "below 0" do
       it "says that are poor" do
-        expect(HowRichYouAre.check(-10)).to eq('Poor as shit')
+        expect(HowRichYouAre.check(-10)).to eq('Poor as fuck')
       end
     end
 
